@@ -1,6 +1,17 @@
 import type { Metadata } from 'next';
-import { space_grotesk } from './fonts';
+import { Space_Grotesk, Teko } from 'next/font/google';
 import './globals.css';
+
+export const space_grotesk = Space_Grotesk({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  variable: '--font-space',
+});
+export const teko = Teko({
+  weight: ['500'],
+  subsets: ['latin'],
+  variable: '--font-teko',
+});
 
 export const metadata: Metadata = {
   title: 'Cloudbase Paralotnie',
@@ -14,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={space_grotesk.className}>{children}</body>
+      <body className={`${space_grotesk.variable} ${teko.variable}`}>{children}</body>
     </html>
   );
 }
