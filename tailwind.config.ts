@@ -18,8 +18,8 @@ const config: Config = {
         'main-blue': '#489DC9',
       },
       fontFamily: {
-        space: ['var(--font-space)'],
-        teko: ['var(--font-teko)'],
+        lato: ['var(--font-lato)'],
+        saira: ['var(--font-saira)'],
       },
     },
   },
