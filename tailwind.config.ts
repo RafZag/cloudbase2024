@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      content: {
+        moreBlue: 'url("/svg/more_blue.svg")',
+        moreGrey: 'url("/svg/more_grey.svg")',
+      },
       backgroundImage: {
         'main-hero': "url('/jpg/main_hero.jpg')",
       },
       colors: {
+        'light-gray': '#9E9E9E',
         'regular-grey': '#474747',
         'dark-grey': '#252525',
         'main-yellow': '#ffd056',
@@ -20,6 +25,15 @@ const config: Config = {
       fontFamily: {
         lato: ['var(--font-lato)'],
         saira: ['var(--font-saira)'],
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 60s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
