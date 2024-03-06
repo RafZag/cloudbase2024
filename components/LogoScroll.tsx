@@ -3,7 +3,7 @@ import Image from 'next/image';
 const LogoScroll = () => {
   return (
     <>
-      <div className="w-full inline-flex flex-nowrap pt-12">
+      <div className="w-full inline-flex overflow-hidden flex-nowrap pt-12">
         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 [&_img]:max-w-none animate-infinite-scroll">
           <li>
             <Image src="/png/logos/ozone.png" alt="ozone logo" width={125} height={63}></Image>
