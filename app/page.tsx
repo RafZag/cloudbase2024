@@ -42,7 +42,7 @@ export default function HomePage() {
       </div>
       <div className="flex h-svh bg-cover bg-main-hero w-full bg-center">
         <div className="container mx-auto my-auto px-10 pt-20">
-          <h1 className="uppercase text-white font-saira text-7xl md:text-[9rem] ml-8">Odważ się!</h1>
+          <h1 className="uppercase text-white font-saira text-7xl md:text-[9rem] ml-8 drop-shadow-2xl">Odważ się!</h1>
           <p className="text-white font-lato font-light text-xl pt-4 max-w-[34rem] ml-8">
             Jeśli trafiłeś tu ponieważ po głowie chodzi Ci pomysł, aby wznieść się w powietrze, to trafiłeś dobrze!
           </p>
@@ -66,25 +66,25 @@ export default function HomePage() {
                 </div>
               </div>
             </Link>
-            <div className="py-8 pl-14 font-lato text-regular-grey leading-10 text-lg">
+            <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
               <ul className="list-image-[url('/svg/bullet.svg')] ">
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Jak zacząć?
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Kalendarz zajęć
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Cennik szkoleń
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Przydatna wiedza
                   </Link>
                 </li>
@@ -105,25 +105,25 @@ export default function HomePage() {
                 </div>
               </div>
             </Link>
-            <div className="py-8 pl-14 font-lato text-regular-grey leading-10 text-lg">
+            <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
               <ul className="list-image-[url('/svg/bullet.svg')] ">
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Kalendarz wyjazdów
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Cennik wyjazdów
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Poziomy zaawansowania
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Destynacje
                   </Link>
                 </li>
@@ -144,20 +144,20 @@ export default function HomePage() {
                 </div>
               </div>
             </Link>
-            <div className="py-8 pl-14 font-lato text-regular-grey leading-10 text-lg">
+            <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
               <ul className="list-image-[url('/svg/bullet.svg')] ">
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Dostępne marki
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     Zamówienia
                   </Link>
                 </li>
                 <li className="pl-2">
-                  <Link href="#" className="hover:text-regular-grey/50">
+                  <Link href="#" className="hover:text-regular-gray/50">
                     FAQ
                   </Link>
                 </li>
@@ -177,7 +177,7 @@ export default function HomePage() {
                 podnoszeniem ich umiejętności na wyższy poziom, aż do chmur. Organizujemy również wyjazdy paralotniowe,
                 podczas których polatasz w pięknych miejscach i ciekawie spędzisz wolny czas w świetnej atmosferze.{' '}
               </p>
-              <button className="uppercase font-lato text-regular-grey text-lg rounded-full mt-8 py-4 px-12 bg-main-yellow hover:bg-white border border-solid border-main-yellow hover:border-white mr-4">
+              <button className="uppercase font-lato text-regular-gray text-lg rounded-full mt-8 py-4 px-12 bg-main-yellow hover:bg-white border border-solid border-main-yellow hover:border-white mr-4">
                 Więcej o nas
               </button>
               <button className="uppercase font-lato text-white text-lg rounded-full border-solid border border-white mt-8 py-4 px-12 hover:bg-white/20">
@@ -210,7 +210,7 @@ export default function HomePage() {
             </div>
             <div className="w-full lg:w-1/2 px-2 my-auto content-center">
               <h2 className="text-2xl text-main-blue font-lato font-semibold mb-2">Test uprzęży Dudek TECHNO 2023</h2>
-              <p className="text-lg text-regular-grey font-lato font-regular leading-8">
+              <p className="text-lg text-regular-gray font-lato font-regular leading-8">
                 Podczas niedawnego pobytu w Kolumbii polatałem kilka dni na nowej uprzęży Dudek TECHNO 2023. Chciałbym
                 podzielić się wrażeniami na temat tej uprzęży ponieważ jest czym się dzielić. TECHNO 2023 to lekka
                 uprząż (ok. 1,96-2,0 kg w rozmiarze M) z kokonem i płetwą za plecami pilota. Wersja 2023 to kolejna
@@ -231,14 +231,14 @@ export default function HomePage() {
         <div className="container mx-auto px-10 ">
           <div className="flex items-center flex-wrap lg:flex-nowrap pl-8">
             <Link href="#" className="min-w-60">
-              <h1 className="text-5xl xl:text-6xl text-regular-grey font-saira uppercase after:content-moreGrey after:inline-block after:w-11 after:ml-4 after:fill-regular-grey">
+              <h1 className="text-5xl xl:text-6xl text-regular-gray font-saira uppercase after:content-moreGrey after:inline-block after:w-11 after:ml-4 after:fill-regular-gray">
                 Sprzęt
               </h1>
             </Link>
-            <p className="pt-4 lg:pt-0 text-lg text-regular-grey font-lato font-regular leading-2">
+            <p className="pt-4 lg:pt-0 text-lg text-regular-gray font-lato font-regular leading-2">
               Szczegółowych informacji dotyczących sprzętu, cen i dostępności uzyskacie dzwoniąc do nas na numer:{' '}
               <strong>607&nbsp;624&nbsp;487</strong> lub pisząc:{' '}
-              <Link href="mailto:info@cloudbase.pl" className="hover:text-dark-grey/50" target="_blank">
+              <Link href="mailto:info@cloudbase.pl" className="hover:text-dark-gray/50" target="_blank">
                 <strong>info@cloudbase.pl</strong>
               </Link>
             </p>
