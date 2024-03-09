@@ -3,52 +3,29 @@ import Image from 'next/image';
 import { FaUpRightFromSquare } from 'react-icons/fa6';
 import LogoScroll from '@/components/LogoScroll';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+
+type Props = {
+  params: { color: string };
+};
 
 export default function HomePage() {
   return (
     <>
-      <div className="absolute w-full">
-        {/* Nav bar */}
-
-        <nav className="container top-0 mx-auto px-10 pt-12 pb-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <Link href="/">
-                <Image src="cloudbase_logo.svg" alt="cloudbase logo" width={230} height={65} />
-              </Link>
-            </div>
-            <div className="hidden lg:flex space-x-8 xl:space-x-14 font-lato text-lg text-main-blue">
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                Wyjazdy
-              </Link>
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                Szkolenia
-              </Link>
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                Sprzęt
-              </Link>
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                Blog
-              </Link>
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                O nas
-              </Link>
-              <Link href="#" className="uppercase hover:text-main-blue/40">
-                Kontakt
-              </Link>
-            </div>
-          </div>
-        </nav>
-      </div>
+      <Navbar params={{ color: 'main-blue' }} />
       <div className="flex h-svh bg-cover bg-main-hero w-full bg-center">
-        <div className="container mx-auto my-auto px-10 pt-20">
-          <h1 className="uppercase text-white font-saira text-7xl md:text-[9rem] ml-8 drop-shadow-2xl">Odważ się!</h1>
-          <p className="text-white font-lato font-light text-xl pt-4 max-w-[34rem] ml-8">
-            Jeśli trafiłeś tu ponieważ po głowie chodzi Ci pomysł, aby wznieść się w powietrze, to trafiłeś dobrze!
-          </p>
-          <button className="font-lato text-white text-lg rounded-full border-solid border border-white ml-8 mt-8 py-4 px-12 hover:bg-white/20">
-            ZACZYNAMY!
-          </button>
+        <div className="w-full h-full flex bg-[url('/png/clouds.png')] bg-contain bg-no-repeat bg-bottom">
+          <div className="container mx-auto my-auto px-10 pt-20">
+            <h1 className="uppercase text-white font-saira text-6xl md:text-8xl lg:text-[9rem] ml-8 drop-shadow-2xl">
+              Odważ się!
+            </h1>
+            <p className="text-white font-lato font-light text-xl pt-4 max-w-[34rem] ml-8">
+              Jeśli trafiłeś tu ponieważ po głowie chodzi Ci pomysł, aby wznieść się w powietrze, to trafiłeś dobrze!
+            </p>
+            <button className="font-lato text-white text-lg rounded-full border-solid border border-white ml-8 mt-8 py-4 px-12 hover:bg-white/20">
+              ZACZYNAMY!
+            </button>
+          </div>
         </div>
       </div>
       <div className="container mx-auto px-10 pt-8 pb-24">
@@ -208,7 +185,7 @@ export default function HomePage() {
                 height={375}
               ></Image>
             </div>
-            <div className="w-full lg:w-1/2 px-2 my-auto content-center">
+            <div className="w-full lg:w-1/2 px-8 my-auto content-center">
               <h2 className="text-2xl text-main-blue font-lato font-semibold mb-2">Test uprzęży Dudek TECHNO 2023</h2>
               <p className="text-lg text-regular-gray font-lato font-regular leading-8">
                 Podczas niedawnego pobytu w Kolumbii polatałem kilka dni na nowej uprzęży Dudek TECHNO 2023. Chciałbym

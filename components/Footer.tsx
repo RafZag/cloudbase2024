@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="bg-cover bg-dark-gray w-full bg-center ">
         <div className="container mx-auto px-10 py-24">
-          <div className="flex flex-wrap lg:flex-nowrap mx-auto gap-8 px-8">
+          <div className="flex flex-wrap lg:flex-nowrap mx-auto gap-12 px-8">
             <div className=" w-full ">
               <Link href="#" className="min-w-60">
                 <h1 className="text-5xl xl:text-6xl text-regular-gray font-saira uppercase after:content-moreGrey after:inline-block after:w-11 after:ml-4 after:fill-regular-gray">
@@ -59,12 +59,13 @@ const Footer = () => {
             <div className="w-full ">
               <h1 className="text-5xl xl:text-6xl text-regular-gray font-saira uppercase">Newsletter</h1>
               <div className="pt-12">
-                <form>
+                {/* FORM */}
+                <form className="flex flex-nowrap">
                   <input
-                    type="text"
+                    type="email"
                     id="email"
                     placeholder="e-mail"
-                    className="bg-dark-gray text-sm font-lato text-light-gray rounded-full border border-regular-gray px-4 py-2 focus:outline-none mr-4"
+                    className="bg-dark-gray text-sm font-lato text-light-gray rounded-full border border-regular-gray px-4 py-2 focus:outline-none mr-4 grow"
                   ></input>
                   <input
                     type="submit"
@@ -72,10 +73,9 @@ const Footer = () => {
                     className="font-lato text-sm text-light-gray uppercase bg-regular-gray rounded-full px-4 py-2 cursor-pointer hover:bg-light-gray hover:text-regular-gray"
                   ></input>
                 </form>
+
                 <p className="font-lato text-md text-regular-gray text-sm mt-4">
-                  *Rejestrując się, wyrażasz zgodę na otrzymywanie
-                  <br />
-                  newslettera i materiałów promocyjnych.
+                  *Rejestrując się, wyrażasz zgodę na otrzymywanie newslettera i&nbsp;materiałów promocyjnych.
                 </p>
               </div>
               <div className="pt-12">
