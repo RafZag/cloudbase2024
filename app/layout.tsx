@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Lato, Saira_Condensed } from 'next/font/google';
 import './globals.css';
+import Footer from '@/components/Footer';
 
 const lato = Lato({
   weight: ['300', '400', '700'],
@@ -27,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={`${lato.variable} ${saira.variable}`}>{children}</body>
+      <body className={`${lato.variable} ${saira.variable}`}>
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

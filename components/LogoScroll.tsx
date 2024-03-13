@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const LogoScroll = () => {
+export default function LogoScroll() {
   return (
     <>
       <div className="w-full inline-flex overflow-hidden flex-nowrap pt-12">
@@ -56,6 +56,4 @@ const LogoScroll = () => {
       </div>
     </>
   );
-};
-
-export default LogoScroll;
+}

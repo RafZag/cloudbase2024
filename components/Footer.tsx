@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Footer = () => {
+export default function Footer() {
   return (
     <>
-      <div className="bg-cover bg-dark-gray w-full bg-center ">
+      <footer className="bg-cover bg-dark-gray w-full bg-center ">
         <div className="container mx-auto px-10 py-24">
           <div className="flex flex-wrap lg:flex-nowrap mx-auto gap-12 px-8">
             <div className=" w-full ">
@@ -103,9 +103,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
-};
-
-export default Footer;
+}
