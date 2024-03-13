@@ -82,13 +82,19 @@ export default function Footer() {
                 <p className="font-lato text-sm text-light-gray">Zapraszamy do naszych mediów społecznościowych:</p>
                 <div className="w-full flex gap-6 mt-6">
                   <Link href="https://www.instagram.com/cloudbase_paralotnie/" target="_blank">
-                    <Image src="/png/insta.png" alt="instagram" width={30} height={30}></Image>
+                    <Image
+                      src="/png/insta.png"
+                      alt="instagram"
+                      width={30}
+                      height={30}
+                      className="hover:opacity-50"
+                    ></Image>
                   </Link>
                   <Link href="https://www.youtube.com/@MarekMastalerz" target="_blank">
-                    <Image src="/png/yt.png" alt="youtube" width={30} height={30}></Image>
+                    <Image src="/png/yt.png" alt="youtube" width={30} height={30} className="hover:opacity-50"></Image>
                   </Link>
                   <Link href="https://www.facebook.com/cloudbaseparalotnie" target="_blank">
-                    <Image src="/png/fb.png" alt="facebook" width={30} height={30}></Image>
+                    <Image src="/png/fb.png" alt="facebook" width={30} height={30} className="hover:opacity-50"></Image>
                   </Link>
                 </div>
               </div>

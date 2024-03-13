@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import MainHero from '@/components/MainHero';
 import About from '@/components/About';
-import HomePage3boxes from '@/components/HomePage3Boxes';
+import HomePage3boxes from '@/components/HomePage3boxes';
 import HomePageBlogpost from '@/components/HomePageBlogpost';
 import HomePageEquipment from '@/components/HomePageEquipment';
 

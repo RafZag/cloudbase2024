@@ -1,7 +1,7 @@
 // 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import LogoSVG from './LogoSVG';
 
 type Props = {
   params: { color: string };
@@ -15,14 +15,14 @@ export default function Navbar({ params }: Props) {
           <div className="flex items-center justify-between">
             <div>
               <Link href="/">
-                <Image src="cloudbase_logo.svg" alt="cloudbase logo" width={230} height={65} />
+                <LogoSVG className={`fill-${params.color}`} />
               </Link>
             </div>
             <div className={`hidden lg:flex space-x-8 xl:space-x-14 font-lato text-lg text-${params.color}`}>
               <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
                 Wyjazdy
               </Link>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/szkolenia" className={`uppercase hover:text-${params.color}/40`}>
                 Szkolenia
               </Link>
               <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
