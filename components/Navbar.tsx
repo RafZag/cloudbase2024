@@ -1,4 +1,4 @@
-// 'use client';
+'use client';
 
 import Link from 'next/link';
 import LogoSVG from './LogoSVG';
@@ -15,7 +15,11 @@ export default function Navbar({ params }: Props) {
           <div className="flex items-center justify-between">
             <div>
               <Link href="/">
-                <LogoSVG className={`fill-${params.color}`} />
+                {params.color === 'white' ? (
+                  <LogoSVG className={`fill-white`} />
+                ) : (
+                  <LogoSVG className={`fill-main-blue`} />
+                )}
               </Link>
             </div>
             <div className={`hidden lg:flex space-x-8 xl:space-x-14 font-lato text-lg text-${params.color}`}>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import LogoScroll from './LogoScroll';
+import LogoScroll from '../LogoScroll';
 
 export default function HomePageEquipment() {
   return (

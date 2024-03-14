@@ -1,9 +1,9 @@
 import Navbar from '@/components/Navbar';
-import MainHero from '@/components/MainHero';
-import About from '@/components/About';
-import HomePage3boxes from '@/components/HomePage3boxes';
-import HomePageBlogpost from '@/components/HomePageBlogpost';
-import HomePageEquipment from '@/components/HomePageEquipment';
+import MainHero from '@/components/HomePage/MainHero';
+import About from '@/components/HomePage/About';
+import HomePage3boxes from '@/components/HomePage/HomePage3boxes';
+import HomePageBlogpost from '@/components/HomePage/HomePageBlogpost';
+import HomePageEquipment from '@/components/HomePage/HomePageEquipment';
 
 type Props = {
   params: { color: string };

@@ -1,3 +1,5 @@
+import { twMerge } from 'tailwind-merge';
+
 interface logoProps {
   className?: string;
 }
@@ -11,8 +13,9 @@ export default function LogoSVG({ className }: logoProps) {
       x="0px"
       y="0px"
       viewBox="0 0 230 65"
-      width="300"
-      height=""
+      width="280"
+      height="86"
+      // className={twMerge('w-full', className)}
       className={className}
     >
       <path

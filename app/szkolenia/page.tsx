@@ -1,6 +1,10 @@
 import Navbar from '@/components/Navbar';
 import SzkoleniaHero from '@/components/SzkoleniaHero';
 
+type Props = {
+  params: { color: string };
+};
+
 export default function szkoleniaPage() {
   return (
     <>

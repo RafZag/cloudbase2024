@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import WhiteBtn from '../WhiteBtn';
+import YellowBtn from '../YellowBtn';
 
 export default function About() {
   return (
@@ -13,16 +14,9 @@ export default function About() {
               ich umiejętności na wyższy poziom, aż do chmur. Organizujemy również wyjazdy paralotniowe, podczas których
               polatasz w pięknych miejscach i ciekawie spędzisz wolny czas w świetnej atmosferze.{' '}
             </p>
-            <Link href="/about">
-              <button className="uppercase font-lato text-regular-gray text-lg rounded-full mt-8 py-4 px-12 bg-main-yellow hover:bg-white border border-solid border-main-yellow hover:border-white mr-4">
-                Więcej o nas
-              </button>
-            </Link>
-            <Link href="/contact">
-              <button className="uppercase font-lato text-white text-lg rounded-full border-solid border border-white mt-8 py-4 px-12 hover:bg-white/20">
-                Kontakt
-              </button>
-            </Link>
+            <YellowBtn params={{ text: 'Więcej o nas', link: '/about' }} />
+
+            <WhiteBtn params={{ text: 'Kontakt', link: '/contact' }} />
           </div>
           <div className="w-full lg:w-1/3 bg-cover aspect-square bg-[url('/jpg/mm.jpg')] drop-shadow-xl order-first lg:order-last"></div>
         </div>
