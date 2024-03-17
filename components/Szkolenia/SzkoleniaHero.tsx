@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import YellowBtn from './YellowBtn';
-import WhiteBtn from './WhiteBtn';
+import YellowBtn from '../YellowBtn';
+import WhiteBtn from '../WhiteBtn';
 
 export default function SzkoleniaHero() {
   return (

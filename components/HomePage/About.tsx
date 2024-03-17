@@ -15,7 +15,6 @@ export default function About() {
               polatasz w pięknych miejscach i ciekawie spędzisz wolny czas w świetnej atmosferze.{' '}
             </p>
             <YellowBtn params={{ text: 'Więcej o nas', link: '/about' }} />
-
             <WhiteBtn params={{ text: 'Kontakt', link: '/contact' }} />
           </div>
           <div className="w-full lg:w-1/3 bg-cover aspect-square bg-[url('/jpg/mm.jpg')] drop-shadow-xl order-first lg:order-last"></div>
