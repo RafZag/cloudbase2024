@@ -23,22 +23,22 @@ export default function Navbar({ params }: Props) {
               </Link>
             </div>
             <div className={`hidden lg:flex space-x-8 xl:space-x-14 font-lato text-lg text-${params.color}`}>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/wyjazdy" className={`uppercase hover:text-${params.color}/60`}>
                 Wyjazdy
               </Link>
-              <Link href="/szkolenia" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/szkolenia" className={`uppercase hover:text-${params.color}/60`}>
                 Szkolenia
               </Link>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/sprzet" className={`uppercase hover:text-${params.color}/60`}>
                 Sprzęt
               </Link>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/blog" className={`uppercase hover:text-${params.color}/60`}>
                 Blog
               </Link>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/onas" className={`uppercase hover:text-${params.color}/60`}>
                 O nas
               </Link>
-              <Link href="#" className={`uppercase hover:text-${params.color}/40`}>
+              <Link href="/kontakt" className={`uppercase hover:text-${params.color}/60`}>
                 Kontakt
               </Link>
             </div>

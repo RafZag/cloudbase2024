@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import SzkoleniaHero from '@/components/Szkolenia/SzkoleniaHero';
 import Link from 'next/link';
 import { FaUpRightFromSquare } from 'react-icons/fa6';
+import { FaRegAddressCard } from 'react-icons/fa';
 import BlueBtn from '@/components/BlueBtn';
 import LightGrayBtn from '@/components/LightGrayBtn';
 
@@ -211,10 +212,12 @@ export default function szkoleniaPage() {
                   wyzwania my wyszkolimy Cię do pełnienia funkcji Kierownika Startu zapoznając z wszystkimi szczegółami
                   tej techniki startu.
                 </p>
-                <button className="uppercase font-lato text-main-blue text-lg pt-4 hover:text-main-blue/60 ">
-                  <FaUpRightFromSquare className="mr-2 mb-2 inline" />
-                  <span>Czytaj dalej</span>
-                </button>
+                <Link href="#">
+                  <button className="uppercase font-lato text-main-blue text-lg pt-4 hover:text-main-blue/60 ">
+                    <FaUpRightFromSquare className="mr-2 mb-2 inline" />
+                    <span>Czytaj dalej</span>
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="w-full">
@@ -231,6 +234,47 @@ export default function szkoleniaPage() {
                   <BlueBtn params={{ text: 'TERMINY SZKOLEŃ', link: 'szkolenia/terminy' }} />
                   <LightGrayBtn params={{ text: 'CENNIK SZKOLEŃ', link: 'szkolenia/cennik' }} />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-neutral-100 w-full">
+        <div className="container mx-auto px-16 pb-24">
+          <div className="bg-main-blue drop-shadow-xl p-8">
+            <h1 className=" text-5xl xl:text-6xl text-white font-saira uppercase pb-8 text-center">
+              Uprawnienia pilota paralotni
+            </h1>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 px-10 gap-8">
+              <div className="flex items-center p-4 font-lato text-lg text-white">
+                <FaRegAddressCard className="text-4xl mr-4" />
+                <Link href="#" className="hover:text-main-yellow">
+                  Jak zdobyć licencję pilota
+                </Link>
+              </div>
+              <div className="flex items-center p-4 font-lato text-lg text-white">
+                <FaRegAddressCard className="text-4xl mr-4" />
+                <Link href="#" className="hover:text-main-yellow">
+                  Uprawnienia podstawowe
+                </Link>
+              </div>
+              <div className="flex items-center p-4 font-lato text-lg text-white">
+                <FaRegAddressCard className="text-4xl mr-4" />
+                <Link href="#" className="hover:text-main-yellow">
+                  Uprawnienia dodatkowe
+                </Link>
+              </div>{' '}
+              <div className="flex items-center p-4 font-lato text-lg text-white">
+                <FaRegAddressCard className="text-4xl mr-4" />
+                <Link href="#" className="hover:text-main-yellow">
+                  Egzaminy na uprawnienia
+                </Link>
+              </div>
+              <div className="flex items-center p-4 font-lato text-lg text-white">
+                <FaRegAddressCard className="text-4xl mr-4" />
+                <Link href="#" className="hover:text-main-yellow">
+                  Zaświadczenie o przeszkoleniu
+                </Link>
               </div>
             </div>
           </div>
