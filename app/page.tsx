@@ -5,10 +5,6 @@ import HomePage3boxes from '@/components/HomePage/HomePage3boxes';
 import HomePageBlogpost from '@/components/HomePage/HomePageBlogpost';
 import HomePageEquipment from '@/components/HomePage/HomePageEquipment';
 
-type Props = {
-  params: { color: string };
-};
-
 export default function HomePage() {
   return (
     <>

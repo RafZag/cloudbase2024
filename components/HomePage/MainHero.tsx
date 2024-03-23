@@ -6,7 +6,7 @@ type Props = {
 
 export default function MainHero() {
   return (
-    <section className="flex h-svh bg-cover bg-main-hero w-full bg-center">
+    <section className="flex h-svh min-h-[760px] bg-cover bg-main-hero w-full bg-center">
       <div className="w-full h-full flex bg-[url('/png/clouds.png')] bg-contain bg-no-repeat bg-bottom">
         <div className="container mx-auto my-auto px-10 pt-20">
           <div className=" lg:ml-8">

@@ -23,22 +23,22 @@ export default function Navbar({ params }: Props) {
               </Link>
             </div>
             <div className={`hidden lg:flex space-x-8 xl:space-x-14 font-lato text-lg text-${params.color}`}>
-              <Link href="/wyjazdy" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/wyjazdy" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 Wyjazdy
               </Link>
-              <Link href="/szkolenia" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/szkolenia" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 Szkolenia
               </Link>
-              <Link href="/sprzet" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/sprzet" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 Sprzęt
               </Link>
-              <Link href="/blog" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/blog" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 Blog
               </Link>
-              <Link href="/onas" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/onas" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 O nas
               </Link>
-              <Link href="/kontakt" className={`uppercase hover:text-${params.color}/60`}>
+              <Link href="/kontakt" className={`uppercase hover:text-${params.color} hover:opacity-50`}>
                 Kontakt
               </Link>
             </div>
