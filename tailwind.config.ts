@@ -32,11 +32,11 @@ const config: Config = {
         'main-hero': "url('/jpg/main_hero.jpg')",
       },
       colors: {
-        'very-light-gray': 'F3F3F3',
+        'very-light-gray': '#F3F3F3',
         'light-gray': '#9E9E9E',
         'regular-gray': '#474747',
         'dark-gray': '#252525',
-        'main-yellow': '#ffd056',
+        'main-yellow': '#FFD056',
         'main-blue': '#489DC9',
       },
       fontFamily: {

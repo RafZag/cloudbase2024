@@ -1,4 +1,4 @@
-import WhiteBtn from '../WhiteBtn';
+import YellowBtn from '../YellowBtn';
 
 type Props = {
   params: { text: string; link: string };
@@ -16,7 +16,7 @@ export default function MainHero() {
             <p className="text-white font-lato font-light text-xl pt-4 max-w-[34rem]">
               Jeśli trafiłeś tu ponieważ po głowie chodzi Ci pomysł, aby wznieść się w powietrze, to trafiłeś dobrze!
             </p>
-            <WhiteBtn params={{ text: 'Zaczynamy!', link: '#' }} />
+            <YellowBtn params={{ text: 'Zaczynamy!', link: '#' }} />
           </div>
         </div>
       </div>

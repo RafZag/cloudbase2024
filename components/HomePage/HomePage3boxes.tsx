@@ -6,18 +6,18 @@ export default function HomePage3boxes() {
     <section className="container mx-auto px-10 pt-8 pb-24">
       <div className="flex flex-wrap lg:flex-nowrap mx-auto gap-8">
         {/* Szkolenia */}
-        <div className="bg-main-yellow w-full drop-shadow-xl">
+        <div className="bg-very-light-gray w-full">
           <Link href="#">
-            <div className="bg-[url('/jpg/szkolenia.jpg')] aspect-square bg-cover">
-              <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
-                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">
-                  <h1 className="uppercase text-white font-saira text-5xl xl:text-6xl">Szkolenia</h1>
+            <div className="bg-[url('/jpg/szkolenia.jpg')] aspect-[4/3] bg-cover">
+              {/* <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
+                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">                  
                   <Image src="/svg/more_wh.svg" alt="cloudbase logo" width={45} height={45}></Image>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Link>
           <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
+            <h1 className="uppercase text-main-blue font-saira text-5xl xl:text-6xl -ml-4 mb-4">Szkolenia</h1>
             <ul className="list-image-[url('/svg/bullet.svg')] ">
               <li className="pl-2">
                 <Link href="#" className="hover:text-regular-gray/50">
@@ -45,18 +45,18 @@ export default function HomePage3boxes() {
 
         {/* Wyjazdy */}
 
-        <div className="bg-main-yellow w-full drop-shadow-xl">
+        <div className="bg-very-light-gray w-full">
           <Link href="#">
-            <div className="bg-[url('/jpg/wyjazdy.jpg')] aspect-square bg-cover">
-              <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
-                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">
-                  <h1 className="uppercase text-white font-saira text-5xl xl:text-6xl">Wyjazdy</h1>
+            <div className="bg-[url('/jpg/wyjazdy.jpg')] aspect-[4/3] bg-cover">
+              {/* <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
+                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">                  
                   <Image src="/svg/more_wh.svg" alt="cloudbase logo" width={45} height={45}></Image>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Link>
           <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
+            <h1 className="uppercase text-main-blue font-saira text-5xl xl:text-6xl -ml-4 mb-4">Wyjazdy</h1>
             <ul className="list-image-[url('/svg/bullet.svg')] ">
               <li className="pl-2">
                 <Link href="#" className="hover:text-regular-gray/50">
@@ -84,18 +84,18 @@ export default function HomePage3boxes() {
 
         {/* Sprzęt */}
 
-        <div className="bg-main-yellow w-full drop-shadow-xl">
+        <div className="bg-very-light-gray w-full">
           <Link href="#">
-            <div className="bg-[url('/jpg/sprzet.jpg')] aspect-square bg-cover">
-              <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
-                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">
-                  <h1 className="uppercase text-white font-saira text-5xl xl:text-6xl">Sprzęt</h1>
+            <div className="bg-[url('/jpg/sprzet.jpg')] aspect-[4/3] bg-cover">
+              {/* <div className="relative h-full bg-gradient-to-t from-black/70 to-black/0 to-50%">
+                <div className="w-full absolute px-10 bottom-10 flex justify-between align-middle">                  
                   <Image src="/svg/more_wh.svg" alt="cloudbase logo" width={45} height={45}></Image>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Link>
           <div className="py-8 pl-14 font-lato text-regular-gray leading-10 text-lg">
+            <h1 className="uppercase text-main-blue font-saira text-5xl xl:text-6xl -ml-4 mb-4">Sprzęt</h1>
             <ul className="list-image-[url('/svg/bullet.svg')] ">
               <li className="pl-2">
                 <Link href="#" className="hover:text-regular-gray/50">
